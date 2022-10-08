@@ -1,0 +1,51 @@
+
+.two{
+    padding: 25px;
+    border:1px solid gray;
+    margin-top: 10px;
+}
+.two h3{
+    color:rgb(0, 128, 117);
+}
+.mo{
+    color: rgb(217, 255, 47);
+    font-weight: 700;
+}
+.momo{
+    color: lightgrey;
+    font-size: 12px;
+    font-weight: 50px;
+    line-height: 20px;
+}
+button{
+    background-color:rgb(146, 233, 58);
+    color: white;
+    border: none;
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.add{
+    font-size: 25px;
+    color:white;
+}
+.three{
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+}
+.msn,.fee,.access,button{
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.msn{
+    margin-top: 25px;
+    color:white
+}
+.access{
+    color: white;
+}
+.addd{
+    color: lightgrey;
+}
+

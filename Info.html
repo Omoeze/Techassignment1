@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body style="background-color: purple">
+    <h2>Input Personal Details</h2>
+    <form action="Info.html">
+      <label for="fname">First name:</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="First name goes here"
+      />
+      
+      <br />
+      <br />
+      <label for="lname">Last name:</label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="Last name goes here"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Enter email" />
+      <br />
+      <br />
+      <label for="dob">Date of birth:</label>
+      <input
+        type="date"
+        name="dob"
+        id="dob"
+        placeholder="Select date of birth"
+      />
+      <br />
+      <br />
+      <label for="upload">Upload ID (NIN, PASSPORT, ID CARD etc...)</label>
+      <br /><br /><input type="file" name="upload" id="upload" /><br /><br />
+      <h2>Select State of origin</h2>
+      <hr />
+      <select name="State" id="state">
+        <option value="State">Lagos</option>
+        <option value="State">Oyo</option>
+        <option value="State">Kogi</option>
+        <option value="State">Akwa-Ibom</option>
+        <option value="State">Anambra</option>
+        <option value="State">Ogun</option>
+        <option value="State">Ekiti</option>
+        <option value="State">Ondo</option>
+        <option value="State">Enugu</option>
+        <option value="State">Borno</option></select
+      ><br /><br />
+      <h2>Select Gender</h2>
+      <label for="male">Male</label>
+      <input type="radio" name="male" id="male" value="Male" />
+      <label for="">Female</label>
+      <input type="radio" name="female" id="female" value="Female" />
+      <label for="Prefer not to say">Prefer not to say</label>
+      <input
+        type="radio"
+        name="Prefer not to say"
+        id="Prefer not to say"
+        value="Prefer not to say"
+      /><br /><br />
+      <h2>Add Bio Here</h2>
+      <hr />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Tell us about yourself"
+      ></textarea
+      ><br /><br />
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>

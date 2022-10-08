@@ -1,0 +1,12 @@
+.firstb{
+    background-color: blue;
+    color: white;
+    border-radius: 17px;
+}
+.btn.btn-primary{
+    background-color: aqua;
+}
+
+.d-block{
+    width:100px ;
+}

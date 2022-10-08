@@ -1,0 +1,81 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     /* grid-template-rows: repeat(2,minmax(200px,auto)); */
+    max-width: 300px;
+    border: 0px solid black;
+    box-shadow: 1px 10px 30px rgba(128, 128, 128, 0.74);
+    border-radius: 5px;
+    margin-left: 75px;
+}
+.one{
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.two{
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 5px;
+    background-color:rgb(20, 145, 103);
+}
+.three{
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top: 5px;
+    background-color:rgb(32, 153, 86);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.three p{
+    line-height: 8px;
+}
+.space{
+    word-spacing: 1.5px;
+}
+.first,.second{
+    line-height:25px;
+}
+.monthly,.space,button{
+    color: white;
+}
+button{
+    background-color:lawngreen;
+    border: none;
+    border-radius: 5px ;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 2px 2px 15px black;
+}
+.join{
+    color: darkcyan;
+}
+h5{
+    color: rgb(157, 255, 0);
+    word-spacing:2px;
+    font-size: 15px;
+}
+.first{
+    color: gray;
+    font-size: 14px;
+}
+.fee{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+}
+.per{
+    color: gray;
+    margin-left:6px ;
+}
+.monthly{
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pees,p{
+    color:lightgray;
+    font-size:13px;
+    word-spacing: 2px;
+}

@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-div {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 170px;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+.btn-1 {
+  color: rgb(226, 43, 202);
+  border: 1px solid rgb(226, 43, 202);
+  border-radius: 25px;
+  padding: 12px;
+  width: 150px;
+  background-color: white;
+}
+.btn-1:hover {
+  color: white;
+  background-color: rgb(226, 43, 202);
+  width: 200px;
+  box-shadow: 5px 5px 20px black;
+  cursor: pointer;
+  margin-left: 205px;
+}
+.container-2 {
+  color: rgb(25, 25, 80);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 12%;
+  text-align: center;
+  line-height: 2rem;
+}
+.btn-2 {
+  color: white;
+  background-color: rgb(226, 43, 202);
+  width: 250px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  box-shadow: 5px 5px 20px black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.img-2 {
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 23%;
+}
+.container-4 {
+  margin-left: 320px;
+  line-height: 1rem;
+  display: inline-block;
+  margin-top: 150px;
+}
+.img-4,
+.img-3 {
+  width: 30px;
+}
+.num1 {
+  margin-left: 1px;
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+}
+.p-2,
+.p-3 {
+  color: rgb(25, 25, 80);
+}
+.container-5 {
+  margin-left: 285px;
+  line-height: 1rem;
+  margin-bottom: 700px;
+  display: inline-block;
+}
+.num2 {
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+}
+.img-5 {
+  width: 450px;
+  position: absolute;
+  top: 1500px;
+  left: 690px;
+}
+.container-6 {
+  display: inline-block;
+  position: absolute;
+  top: 1600px;
+  right: 800px;
+  color: #191950;
+}
+/* The formula for moving stuff */
+.container-7 {
+  color: rgb(25, 25, 80);
+  position: absolute;
+  top: 2100px;
+  left: 750px;
+  display: inline-block;
+}
+.img-6 {
+  width: 450px;
+  position: absolute;
+  top: 2000px;
+  left: 100px;
+}
+.container-8 {
+  color: rgb(25, 25, 80);
+  position: absolute;
+  top: 2500px;
+  right: 750px;
+  display: inline-block;
+}
+.img-7 {
+  width: 450px;
+  position: absolute;
+  top: 2400px;
+  left: 730px;
+}
+.btn-3 {
+  color: white;
+  background-color: rgb(226, 43, 202);
+  width: 250px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+}
+.container-9 {
+  position: absolute;
+  top: 3000px;
+  left: 500px;
+  text-align: center;
+  line-height: 2rem;
+}
+.h-23 {
+  color: rgb(25, 25, 80);
+}
+
+/* styling a big image, bringing it down to fit the width of the page */
+.container-10 {
+  width: 100%;
+  margin-top: 995px;
+  padding: 0;
+}
+
+.news {
+  position: absolute;
+  top: 3350px;
+  left: 590px;
+  color: white;
+}
+.btnz {
+  margin-left: 30px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(226, 43, 202);
+  color: white;
+  font-size: 15px;
+}
+.field {
+  width: 295px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.p-7 {
+  font-size: 15px;
+}
+/* .huddle{
+    position: absolute;
+    top: 3300px;
+    left: 100px;
+    color: white;
+}  */
+.meme {
+  position: absolute;
+  top: 3365px;
+  left: 160px;
+  width: 40px;
+}
+.huddle-2 {
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 3335px;
+  left: 200px;
+}
+.p-8 {
+  color: white;
+  position: absolute;
+  top: 3400px;
+  left: 150px;
+  font-size: 15px;
+}
+.h-24 {
+  font-size: 20px;
+}
+.faceb,
+.insta,
+.twitt {
+  width: 30px;
+}
+.faceb {
+  background-color: white;
+  position: absolute;
+  top: 3537px;
+  left: 150px;
+}
+.insta {
+  background-color: white;
+  position: absolute;
+  top: 3537px;
+  left: 200px;
+}
+.twitt {
+  background-color: white;
+  position: absolute;
+  top: 3537px;
+  left: 245px;
+}
+.imgp,
+.imge {
+  width: 20px;
+}
+.phone {
+  color: white;
+  position: absolute;
+  top: 3475px;
+  left: 150px;
+}
+.imgp {
+  background: white;
+}
+.email {
+  color: white;
+  position: absolute;
+  top: 3500px;
+  left: 150px;
+}
+.imge {
+  background: white;
+}
+.face,
+.inst {
+  width: 35px;
+}
+
+.face {
+  position: sticky;
+  bottom: 200px;
+  left: 75px;
+}
+.inst {
+  position: sticky;
+  bottom: 150px;
+  left: 75px;
+}
+.twit {
+  position: sticky;
+  bottom: 100px;
+  left: 75px;
+  width: 32.5px;
+}
+
+/* @media (max-width: 2560px) {
+  .img-2 {
+    margin-left: 800px;
+    margin-bottom: 500px;
+    width: 960px;
+  }
+  .h-1 {
+    font-size: 60px;
+  }
+  .p-1 {
+    font-size: 25px;
+  }
+  .new-div {
+    margin-right: 340px;
+    margin-left: 340px;
+    margin-top: 200px;
+  }
+  .btn-1 {
+    width: 300px;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .logo {
+    width: 400px;
+  }
+  .btn-2 {
+    width: 350px;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .container-4 {
+    position: absolute;
+    right: 1600px;
+    top: 1600px;
+  }
+  .container-5 {
+    position: absolute;
+    right: 1000px;
+    top: 1750px;
+  }
+  .img-5,
+  .container-6,
+  .img-6,
+  .container-7,
+  .container-8,
+  .img-7 {
+    top: 500px;
+  }
+  .container-6 {
+    top: 2300px;
+    right: 1800px;
+  }
+  .h-2 {
+    font-size: 50px;
+  }
+  .p-4 {
+    font-size: 22px;
+  }
+  .h-21 {
+    font-size: 50px;
+  }
+  .p-5 {
+    font-size: 22px;
+  }
+  .h-22 {
+    font-size: 50px;
+  }
+  .p-6 {
+    font-size: 22px;
+  }
+
+  .num1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .num2 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .p-2,
+  .p-3 {
+    font-size: 19px;
+  }
+  .img-5 {
+    top: 2100px;
+    width: 800px;
+    left: 1200px;
+  }
+}

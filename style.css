@@ -1,0 +1,81 @@
+*{
+    box-sizing:content-box;
+}
+
+p{
+    background-color: bisque;
+           }
+
+#fastest{
+background-color: azure;
+}
+button,th{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+div label select{
+    color: blueviolet;
+    background-color: brown;
+
+}
+ul a li{
+    color:red;
+    background-color:navy;
+}
+.lovely a li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blueviolet;
+}
+body{
+    font-size: 20px;
+}
+.bobol{
+    width:100%;
+    height:100%;
+    border:3px dashed red;
+}
+.bobol div{
+    width: 50%;
+    height: 50%;
+    margin:350px;
+    min-height: 2rem;
+}
+.big{
+    font-weight:lighter;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-align: start;
+    text-decoration: underline;
+}
+.bobou{
+    font: 10px/2 'timesnewroman',sans-serif;
+}
+h1:hover{
+    background-color: blueviolet;
+    text-decoration: none;
+    color:red;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 3px dotted green;
+    text-align: center;
+}
+.nk{
+    width: 50%;
+    height: 50%;
+    border: 3px solid yellow;
+    background-color: cyan;
+    display: inline-block;
+    padding: 100px 200px 200px;
+}
+.new-btn{
+    border-top-right-radius: 3px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:1px;
+    color:red;
+    background-color: lightblue;
+}

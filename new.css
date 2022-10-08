@@ -1,0 +1,85 @@
+.nice{
+    display:block;
+}
+img{
+    width: 100%;
+}
+nav ul{
+list-style-type: none;
+padding:0;
+}
+ul a{
+    text-decoration: none;
+    font-size: 17px;
+    color:gold;
+}
+
+ul a li{
+    display: inline-block;
+    margin-left:20px;
+
+}
+.bobs{
+    width: 100px;
+    border: 5px solid blue;
+    position: sticky;
+    top: 10px;
+    left: 20px;
+}
+.newz{
+    width: 500px;
+    height: 300px;
+    border: 5px solid yellow;
+    background-image:url('images/Firstimage.jpg'),url('images/Secondimage.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    margin-left: 100px;
+    background-color:blue
+}
+body{
+    background-image:url('images/Secondimage.jpg');
+    background-size: 50%;
+    background-color:blue;
+    background-repeat: no-repeat;
+}
+.sure{
+    width: 500px;
+    height: 300px;
+    border: 5px solid yellow; 
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    gap:2px;
+}
+.sure div{
+    width: 100px;
+    height: 50px;
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+}
+.now-now{
+    width: 500px;
+    height: 300px;
+    border: 5px solid yellow; 
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px ;
+}
+.now-now div{
+    width: 100px;
+    height: 50px;
+    border: 5px solid yellow;
+}
+.bbb{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
